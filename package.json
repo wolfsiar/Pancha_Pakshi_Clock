@@ -1,0 +1,10 @@
+{
+  "name": "pancha-pakshi-clock",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pancha Pakshi Clock for Netlify: static app, one Netlify Function, data in Netlify Blobs.",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node tests/server_test.mjs" },
+  "dependencies": { "@netlify/blobs": "^8.1.0" }
+}
